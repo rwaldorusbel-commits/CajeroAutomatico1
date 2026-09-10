@@ -1,14 +1,14 @@
 <?php
 
-namespace Service;
+namespace App\Service;
 
-use Model\Cliente;
-use Model\Cuenta;
+use App\Model\Cliente;
 
 class Cajero
 {
-    /** @var Cliente[] */
+   /** @var Cliente[] */
     private array $clientes = [];
+
     private ?Cliente $sesionActiva = null;
 
     public function registrarCliente(Cliente $cliente): void

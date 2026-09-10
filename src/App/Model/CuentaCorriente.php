@@ -1,6 +1,7 @@
 <?php
 
 namespace Model;
+namespace App\App\Model;
 
 class CuentaCorriente extends Cuenta
 {

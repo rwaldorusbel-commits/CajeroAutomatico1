@@ -1,8 +1,9 @@
 <?php
 
-namespace Model;
+namespace App;
+namespace App\App\Model;
 
-use Interfaces\OperacionesBancarias;
+use App\App\Interfaces\OperacionesBancarias;
 
 abstract class Cuenta implements OperacionesBancarias
 {

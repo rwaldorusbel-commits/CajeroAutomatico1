@@ -1,6 +1,7 @@
 <?php
 
-namespace Interfaces;
+namespace App\App\Interfaces;
+
 
 interface OperacionesBancarias
 {

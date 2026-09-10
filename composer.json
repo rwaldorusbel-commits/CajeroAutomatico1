@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-4": {
+        "App\\": "src/App/"
+    }
+},
+    "authors": [
+        {
+            "name": "Mi Proyecto con git",
+            "email": "rwaldorusbel@gmail.com"
+        }
+    ],
+    "require": {}
+}

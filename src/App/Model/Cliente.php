@@ -1,6 +1,8 @@
 <?php
 
-namespace Model;
+namespace App\Model;
+
+use App\App\Model\Cuenta;
 
 class Cliente
 {

@@ -1,6 +1,10 @@
 <?php
 
-namespace Model;
+
+namespace App\Model;
+
+use App\App\Model\Cuenta;
+use App\Interfaces\OperacionesBancarias;
 
 class CuentaAhorro extends Cuenta
 {
